@@ -9,3 +9,15 @@ Sample Input:
 
 Sample Output:
 6*/
+
+function main() {
+    var depth = parseInt(readLine(), 10);
+    //your code goes here
+
+    var claimbs = 7 - 2;
+
+    var days = depth / claimbs;
+
+    console.log( days.toFixed(0) );
+    
+}
