@@ -32,7 +32,7 @@ listLetters_f_first.sort()
 listLetters_f_second.sort()
 
 def fillFile( file , item , sign ):
-    if sign == True:
+    if sign == True: 
         return file.write( item + "\n" )      
     else:
         return file.write( item )
