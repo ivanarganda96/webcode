@@ -17,7 +17,7 @@ listLetters_f_second = ()
 
 def checkWhiteSpaces( arr , item ):
     if item != " ":
-        arr.append( item )
+        arr.append( item )d
 
 for i in text_for_f_first:
     checkWhiteSpaces( letters_f_first , i )
